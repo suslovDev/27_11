@@ -1,0 +1,23 @@
+@use "@shared/styles/main" as main;
+
+.btn {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &.small {
+    font-size: main.$font-small;
+  }
+
+  &.active {
+    color: main.$color-active;
+  }
+
+  &.dark {
+    color: main.$color-text-secondary;
+  }
+
+  &:hover {
+    color: main.$color-active;
+  }
+}
